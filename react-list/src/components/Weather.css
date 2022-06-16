@@ -1,0 +1,55 @@
+.vln_container {
+  background-image: url("./vilnius.jpg");
+  background-size: auto;
+  height: 100vh;
+  color: #f5f5f5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  padding: 50px 22px;
+}
+.celcius_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  object-fit: contain;
+  padding: 50px 22px;
+}
+.vln-container > h1 {
+  color: #fff;
+  font-size: 120px;
+  margin-top: -100px;
+}
+.celcius_container > h2 {
+  color: #fff;
+  font-size: 250px;
+  text-align: center;
+  border-radius: 25px;
+  border: solid;
+  border-style: groove;
+  border-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 960px) {
+  .vln-container > h1 {
+    font-size: 120px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vln-container > h1 {
+    font-size: 120px;
+    margin-top: -100px;
+  }
+  .vln-container > p {
+    font-size: 30px;
+  }
+}
